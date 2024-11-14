@@ -1,16 +1,25 @@
-<!-- footer.component.html -->
-<footer class="footer">
-    <p>&copy; © 2024 Yale School of Art</p>
-    <nav class="footer-links">
-      <a routerLink="/contact">Contact</a>
-      <a href="https://www.art.yale.edu/about/support-the-school" target="_blank">Support the School</a>
-      <a href="https://www.art.yale.edu/about/visiting" target="_blank">Visiting</a>
-      <a href="https://www.facebook.com/YaleSchoolofArt/" target="_blank">Facebook</a>
-      <a href="https://instagram.com/yaleschoolofart" target="_blank">Instagram</a>
-      <a href="http://yaleart.org/youtube" target="_blank">Youtube</a>
-      <a href="https://www.art.yale.edu/about/contact" target="_blank">Contact</a>
-      <a href="https://www.art.yale.edu/sitemap" target="_blank">Site Map</a>
-      <a href="https://your.yale.edu/policies-procedures/policies/1605-web-accessibility-policy" target="_blank">Accessibility At Yale</a>
+<footer class="footer bg-black text-white py-8 font-sans relative">
+    <p class="text-center mb-4">&copy; 2024 Yale School of Art</p>
+    
+    <!-- Footer Title with z-20 to ensure it appears below the header -->
+    <h1 class="text-white text-6xl relative font-playfair pt-6 pl-20">Yale School of Art</h1>
+    
+    <!-- Footer Address Section -->
+    <h2 class="text-white text-sm font-roboto pt-6 pl-24">
+        Yale School of Art<br>
+        1156 Chapel Street, POB 208339<br>
+        New Haven, Connecticut, 06520-8339
+    </h2>
+    
+    <!-- Footer Links, aligned to the right, with the same z-20 -->
+    <nav class="footer-links flex flex-col space-y-4 pr-60 text-left" style="align-items: flex-end;">
+      <a href="https://www.art.yale.edu/about/support-the-school" target="_blank" class="hover:text-orange-500 text-lg">Support the School</a>
+      <a href="https://www.art.yale.edu/about/visiting" target="_blank" class="hover:text-orange-500 text-lg">Visiting</a>
+      <a href="https://www.facebook.com/YaleSchoolofArt/" target="_blank" class="hover:text-orange-500 text-lg">Facebook</a>
+      <a href="https://instagram.com/yaleschoolofart" target="_blank" class="hover:text-orange-500 text-lg">Instagram</a>
+      <a href="http://yaleart.org/youtube" target="_blank" class="hover:text-orange-500 text-lg">YouTube</a>
+      <a href="https://www.art.yale.edu/about/contact" target="_blank" class="hover:text-orange-500 text-lg">Contact</a>
+      <a href="https://www.art.yale.edu/sitemap" target="_blank" class="hover:text-orange-500 text-lg">Site Map</a>
+      <a href="https://your.yale.edu/policies-procedures/policies/1605-web-accessibility-policy" target="_blank" class="hover:text-orange-500 text-lg">Accessibility At Yale</a>
     </nav>
-  </footer>
-  
+</footer>
